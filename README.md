@@ -1,6 +1,6 @@
 # dualnotes.app
 
-The website for Notemono: a home page, the **Support URL** and the **Privacy Policy URL** that
+The website for Dual Notes: a home page, the **Support URL** and the **Privacy Policy URL** that
 App Store Connect asks for.
 
 | Page | URL | Used for |
