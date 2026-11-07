@@ -122,7 +122,7 @@ ul, ol { padding-left: 1.25rem; display: grid; gap: 0.4rem; }
   font-weight: 600;
 }
 
-/* The home page: the icon, the name, one sentence of what it is, and the privacy policy. No feature
+/* The home page: the icon, the name, one sentence of what it is, and the Support and Privacy pages. No feature
    list (the reader's call, 2026-11-07). */
 .page.home {
   min-height: 100vh;
@@ -184,6 +184,17 @@ ul, ol { padding-left: 1.25rem; display: grid; gap: 0.4rem; }
     color: var(--ink-muted);
   }
 }
+
+/* Support's one way to reach us. */
+.contact {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  background: var(--raised);
+}
+.contact .address { font-size: var(--step-1); font-weight: 600; }
 
 footer.site-foot {
   display: flex;
