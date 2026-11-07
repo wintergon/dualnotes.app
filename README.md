@@ -1,12 +1,11 @@
 # dualnotes.app
 
-The website for Dual Notes: a home page, the **Support URL** and the **Privacy Policy URL** that
-App Store Connect asks for.
+The website for Dual Notes: a home page and the **Privacy Policy URL** that App Store Connect asks
+for.
 
 | Page | URL | Used for |
 |---|---|---|
 | `public/index.html` | https://dualnotes.app/ | Marketing URL (optional in App Store Connect) |
-| `public/support/index.html` | https://dualnotes.app/support/ | Support URL (required) |
 | `public/privacy/index.html` | https://dualnotes.app/privacy/ | Privacy Policy URL (required), and the link inside the app |
 
 Plain HTML and one stylesheet. No build step, no scripts, no web fonts, no analytics — the privacy

@@ -61,7 +61,7 @@ a:focus-visible { outline: 2px solid var(--action); outline-offset: 2px; border-
    past a phone's screen. */
 .page > * { min-width: 0; }
 
-/* The bar at the top: the app's name home, and the two pages App Store Connect links to. */
+/* The bar at the top: the app's name, home. */
 .site-bar {
   display: flex;
   flex-wrap: wrap;
@@ -122,8 +122,8 @@ ul, ol { padding-left: 1.25rem; display: grid; gap: 0.4rem; }
   font-weight: 600;
 }
 
-/* The home page: the icon and the name, and the two pages App Store Connect links to. Nothing else
-   (the reader's call, 2026-11-07). */
+/* The home page: the icon, the name, one sentence of what it is, and the privacy policy. No feature
+   list (the reader's call, 2026-11-07). */
 .page.home {
   min-height: 100vh;
   min-height: 100svh;
@@ -132,7 +132,8 @@ ul, ol { padding-left: 1.25rem; display: grid; gap: 0.4rem; }
   text-align: center;
   gap: 2rem;
 }
-.hero { display: grid; gap: 1.25rem; justify-items: center; }
+.hero { display: grid; gap: 1rem; justify-items: center; }
+.home .lead { margin: 0; color: var(--ink-muted); max-width: 26rem; text-wrap: balance; }
 .hero img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 10px 30px rgba(90, 60, 30, 0.18); }
 .hero h1 { font-size: var(--step-3); }
 .home-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.5rem; font-size: var(--small); }
@@ -183,20 +184,6 @@ ul, ol { padding-left: 1.25rem; display: grid; gap: 0.4rem; }
     color: var(--ink-muted);
   }
 }
-
-/* Support's questions. */
-.faq { display: grid; gap: 1.5rem; }
-.faq > div { display: grid; gap: 0.35rem; }
-
-.contact {
-  display: grid;
-  gap: 0.5rem;
-  padding: 1.1rem 1.25rem;
-  border: 1px solid var(--rule);
-  border-radius: 14px;
-  background: var(--raised);
-}
-.contact .address { font-size: var(--step-1); font-weight: 600; }
 
 footer.site-foot {
   display: flex;
